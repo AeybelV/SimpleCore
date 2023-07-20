@@ -64,7 +64,7 @@ module sc_alu (
       end
       `SC_ALU_SUB: // Subtraction
             begin
-        result_r <= alu_a_in - alu_b_in;
+        result_r <= alu_b_in - alu_a_in;
       end
       `SC_ALU_AND: begin
         result_r <= alu_a_in & alu_b_in;

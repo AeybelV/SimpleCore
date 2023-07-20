@@ -73,7 +73,7 @@ int main(int argc, char** argv, char** env) {
                 break;
             }
             case SC_ALU_SUB:{
-                expected = input_a - input_b;
+                expected = input_b - input_a;
                 break;
             }
             case SC_ALU_AND:{
