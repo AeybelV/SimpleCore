@@ -27,7 +27,7 @@ A simple RV32I core implementation in Verilog with Verilator Testbenches
 - [ ] AND
 - [ ] OR
 - [ ] XOR
-- [ ] SL
+- [ ] SLL
 - [ ] SRL
 - [ ] SUB
 - [ ] SRA
