@@ -9,7 +9,7 @@ A simple RV32I core implementation in Verilog with Verilator Testbenches
 #### Integer Register-Immediate Instructions
 
 - [ ] ADDI
-- [ ] SLTI
+- [ ] SLTI[U]
 - [ ] ANDI
 - [ ] ORI
 - [ ] XORI
@@ -22,8 +22,7 @@ A simple RV32I core implementation in Verilog with Verilator Testbenches
 #### Integer Register-Register Operations
 
 - [ ] ADD
-- [ ] SLT
-- [ ] SLTU
+- [ ] SLT[U]
 - [ ] AND
 - [ ] OR
 - [ ] XOR
@@ -53,10 +52,8 @@ A simple RV32I core implementation in Verilog with Verilator Testbenches
 ### Load and Store Instructions
 
 - [ ] LW
-- [ ] LH
-- [ ] LHU
-- [ ] LB
-- [ ] LBU
+- [ ] LH[U]
+- [ ] LB[U]
 - [ ] SW
 - [ ] SH
 - [ ] SB
