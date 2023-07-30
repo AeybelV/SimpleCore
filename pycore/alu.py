@@ -19,3 +19,5 @@ class ALU:
     def XOR(self,a,b) -> WORD:
         return a ^ b
     
+    # TODO: Add the remaining operations
+    

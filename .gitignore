@@ -1,3 +1,4 @@
 obj_dir/
 *.vcd
 .stamp.verilate
+__pycache__/
